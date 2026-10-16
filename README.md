@@ -1,142 +1,212 @@
-<div align="center">
+```{=html}
+<!--
+Pixel Arcade README for Vidhursh-16
+Replace the project links below with your actual repository URLs when ready.
+-->
+```
+::: {align="center"}
+# `> whoami`
 
-# Hi, I'm Vidhursh Kumar V 👋
+# **VIDHURSH KUMAR V**
 
-### Building systems that hold up in practice — not just in theory.
+### 👾 AI Engineer · Machine Learning Engineer · Data Engineer
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/vidhursh-kumar)
-[![Gmail](https://img.shields.io/badge/Email-Reach%20Out-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:vidhursh1627@gmail.com)
-[![Portfolio](https://img.shields.io/badge/Location-Chennai%2C%20India-4285F4?style=for-the-badge&logo=googlemaps&logoColor=white)]()
+**Building practical AI systems around real-world problems.**
 
-</div>
+📍 Chennai, India
 
----
+[![GitHub](https://img.shields.io/badge/GitHub-Vidhursh--16-181717?style=for-the-badge&logo=github)](https://github.com/Vidhursh-Rec)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/vidhursh-kumar16/)
+[![Email](https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail)](mailto:vidhursh1627@gmail.com)
 
-## 🧠 About Me
+> *"It's hard to solve every problem in the world, yet I choose to build
+> projects around real-life problems."*
+:::
 
-Final-year **B.Tech in Artificial Intelligence & Data Science** student at Rajalakshmi Engineering College, working across the stack — from cloud-native data pipelines to agentic AI systems that actually automate real tasks.
+------------------------------------------------------------------------
 
-I interned at **The Hindu Group**, building election intelligence platforms with real-time GIS mapping for the 2026 elections. Outside of that, I build things that solve problems I actually have — an entertainment automation bot, a privacy-first local AI assistant, and cloud data pipelines that mirror production setups.
+## `01 // PLAYER PROFILE`
 
-- 🔭 Currently building **PulseBot** — a three-tier agentic system automating mood-based music curation and concert discovery
-- 🌱 Deepening my skills in **agentic AI orchestration** and **cloud data engineering**
-- 💬 Ask me about **RAG pipelines, n8n workflow automation, or data pipeline architecture**
-- ⚡ Fun fact: I built a system that asks how you're feeling and builds you a Spotify playlist in under 5 seconds
+-   🎓 B.Tech in Artificial Intelligence and Data Science at
+    **Rajalakshmi Engineering College** --- expected 2027
+-   🧠 Focus areas: **AI, Machine Learning, and Data Engineering**
+-   🛠️ Interested in building end-to-end systems, from data pipelines to
+    AI-powered applications
+-   🗺️ Data Analyst & Data Engineer Trainee experience at **The Hindu
+    Group**
+-   🌱 Continuously learning through projects, problem-solving, and
+    open-source contributions
 
----
+------------------------------------------------------------------------
 
-## 🚀 Featured Projects
+## `02 // TECH INVENTORY`
 
-<table>
-<tr>
-<td width="50%">
+  -----------------------------------------------------------------------
+  Category                            Technologies
+  ----------------------------------- -----------------------------------
+  **Languages**                       Python · Java · SQL
 
-### 🗳️ [Election Result Intelligence Platform](https://github.com/Vidhursh-16/Election_Result_analysis)
-Constituency-level political analytics for India's 2026 Assembly Elections. Interactive choropleth maps, AI-generated political summaries, built during my internship at The Hindu Group.
+  **AI / GenAI**                      LLMs · RAG · Prompt Engineering ·
+                                      ML Models
 
-**Stack:** Python · Streamlit · Folium · GeoPandas
-[🔗 Live App](https://vidhursh-16-election-result-analysis-app-9s7hwx.streamlit.app/)
+  **Data Engineering**                ETL · Medallion Architecture · dbt
+                                      · Snowflake
 
-</td>
-<td width="50%">
+  **Cloud**                           AWS S3 · EC2 · RDS · SNS · SQS ·
+                                      Lambda · DynamoDB · Aurora
 
-### 🎵 [PulseBot — Agentic Entertainment System](https://github.com/Vidhursh-Rec/N8N-Agentic-AI---Spotify-Pulse-Bot)
-Three-tier autonomous n8n workflow for mood-based playlist curation and real-time concert alerts.
+  **Backend**                         FastAPI · Flask
 
-**Stack:** n8n · Groq LLM · Spotify API · Telegram
+  **Databases**                       PostgreSQL · DynamoDB · Amazon
+                                      Aurora · SQLite · MongoDB
 
-</td>
-</tr>
-<tr>
-<td width="50%">
+  **Tools & Automation**              Git · GitHub · Docker · n8n ·
+                                      Apache Airflow
+  -----------------------------------------------------------------------
 
-### 🍽️ [Zomoto AI — Data Engineering Pipeline](https://github.com/Vidhursh-Rec/Zomoto-AI-END-TO-END-AI-Engineering-)
-Cloud-native restaurant analytics pipeline on the Medallion architecture with AI-powered Text-to-SQL querying.
+------------------------------------------------------------------------
 
-**Stack:** Snowflake · dbt · Airflow · AWS S3
+## `03 // FEATURED BUILDS`
 
-</td>
-<td width="50%">
+### 🍽️ Zomato AI Pipeline --- Restaurant Intelligence
 
-### 🔒 [LOKL AI — Offline RAG Assistant](https://github.com/Vidhursh-Rec/LOKL-AI-an-OFFLINE-CHAT-ASSISTANCE)
-Fully local, privacy-first RAG assistant — no data ever leaves the machine.
+A restaurant data pipeline combining layered data processing,
+natural-language-to-SQL, and RAG-based analysis of dish-specific
+customer reviews.
 
-**Stack:** Ollama · FAISS · Transformers
+-   **Core concepts:** Medallion Architecture, ETL, dbt, Snowflake, RAG,
+    Text-to-SQL
+-   **Business purpose:** Help restaurant owners understand customer
+    feedback and query business data.
+-   **Planned extension:** Evaluate quick-commerce warehouse locations
+    using road-network distances and facility-location optimization.
 
-</td>
-</tr>
-</table>
+> Warehouse optimization is a proposed extension; Dijkstra calculates
+> shortest-path distances and does not independently choose an optimal
+> warehouse.
 
----
+### 🏥 CareBridge --- Hospital Discharge & Follow-up Coordinator
 
-## 🛠️ Tech Stack
+A web and mobile care-coordination concept that brings discharge
+instructions, medication tracking, follow-up scheduling, family
+notifications, and nearby healthcare discovery into one experience.
 
-<div align="center">
+-   **CS fundamentals:** Database Management & Transaction Integrity,
+    Concurrency Control, Load Balancing & Task Scheduling, Role-Based
+    Access Control (RBAC)
+-   **Hackathon:** 1st place in the inter-college round and 2nd place in
+    the subsequent top-five finalist round at Build to Care.
 
-**Languages**
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Java](https://img.shields.io/badge/Java-007396?style=flat-square&logo=openjdk&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white)
+### 🎧 PulseBot --- Agentic Entertainment Automation
 
-**AI & Data**
-![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
-![FAISS](https://img.shields.io/badge/FAISS-4B8BBE?style=flat-square)
-![Groq](https://img.shields.io/badge/Groq-F55036?style=flat-square)
-![Ollama](https://img.shields.io/badge/Ollama-000000?style=flat-square)
+An n8n-based automation system for playlist refreshes, mood-based music
+curation, and artist-event discovery.
 
-**Cloud & Data Engineering**
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white)
-![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8?style=flat-square&logo=snowflake&logoColor=white)
-![dbt](https://img.shields.io/badge/dbt-FF694B?style=flat-square&logo=dbt&logoColor=white)
-![Airflow](https://img.shields.io/badge/Airflow-017CEE?style=flat-square&logo=apacheairflow&logoColor=white)
+-   **Workflows:** Weekly playlist refresh, mood-triggered
+    recommendations, artist-event search
+-   **Stack:** n8n, Groq LLM, Spotify API, Telegram API, Google Sheets
+-   **Event discovery:** Prioritizes BookMyShow search results and falls
+    back to other booking platforms when suitable listings are
+    unavailable.
 
-**Automation & Frameworks**
-![n8n](https://img.shields.io/badge/n8n-EA4B71?style=flat-square&logo=n8n&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
+------------------------------------------------------------------------
 
-**Databases**
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)
+## `04 // OPEN-SOURCE QUEST`
 
-</div>
+### TaskAwareRouter --- LLMRouter
 
----
+Contributed an accepted custom inference router to
+[ulab-uiuc/LLMRouter](https://github.com/ulab-uiuc/LLMRouter/tree/main/custom_routers/taskawarerouter).
 
-## 📊 GitHub Stats
+TaskAwareRouter classifies incoming queries by **task type** (coding,
+design, planning, research, or language) and **complexity** (simple or
+complex), then uses a configurable routing table to select a model. It
+includes fallback behavior when judge-model classification fails.
 
-<div align="center">
+-   [View contribution and
+    implementation](https://github.com/ulab-uiuc/LLMRouter/tree/main/custom_routers/taskawarerouter)
+-   [Visit my GitHub profile](https://github.com/Vidhursh-16)
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=Vidhursh-Rec&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Vidhursh-Rec&layout=compact&theme=tokyonight&hide_border=true" />
+------------------------------------------------------------------------
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Vidhursh-Rec&theme=tokyonight&hide_border=true" />
+## `05 // EXPERIENCE`
 
-</div>
+### The Hindu Group --- Data Analyst & Data Engineer Trainee
 
----
+**June 2026 -- July 2026 · Chennai, India**
 
-## 🎓 Education
+-   Worked on constituency-level election data analysis for West Bengal
+    and Tamil Nadu.
+-   Contributed to collecting, cleaning, and integrating election
+    datasets for analysis.
+-   Proposed the hover-based interactive GIS mapping experience,
+    supported by the team.
+-   Focused on making constituency results, vote swings, victory
+    margins, and geographic patterns easier to explore.
 
-**Rajalakshmi Engineering College** — B.Tech, Artificial Intelligence & Data Science *(2023 – 2027)*
-CGPA: 8.14 / 10
+------------------------------------------------------------------------
 
----
+## `06 // ACHIEVEMENTS UNLOCKED`
 
-## 🏆 Achievements
+-   🥇 **Build to Care Hackathon:** 1st place in the inter-college round
+    after three internal evaluation rounds.
+-   🥈 **Build to Care Hackathon:** 2nd place in the subsequent top-five
+    finalist round; ₹1,000 cash prize reported.
+-   🎮 **Pitch Ready Spot-On Hackathon:** Top 10 placement for a 3D
+    CAD-based dysfunctionality analysis concept.
+-   🌐 **Open Source:** Accepted contribution to LLMRouter through
+    TaskAwareRouter.
 
-- 🥇 **Smart India Hackathon (SIH) 2025** — Top 25
-- 🚀 **HackIndia Hackathon** — Built a gamified platform
-- 🏅 **MulticoreWare Project Presentation** — Top 10
-- 📄 **Paper Presentation** — 3rd Prize, Deepfake Detection Mechanisms
-- 🔧 **LLM Router** — Open-source contribution (under review)
+------------------------------------------------------------------------
 
----
+## `07 // CERTIFICATIONS`
 
-<div align="center">
+-   AWS Certified Cloud Practitioner
+-   AI & Machine Learning --- Cybernaut
+-   HackerRank Certification --- Python
+-   UI/UX Development --- Internezy
 
-### 📫 Let's connect — I'm always up for talking agentic AI, data engineering, or automation
+------------------------------------------------------------------------
 
-**If you found any of my projects useful, drop a ⭐**
+## `08 // EDUCATION`
 
-</div>
+**Rajalakshmi Engineering College**\
+B.Tech, Artificial Intelligence and Data Science · Expected 2027\
+**CGPA:** 8.14 / 10
+
+**Kola Saraswathi Vaishnav Senior Secondary School**\
+CBSE Class XII · 2022--2023\
+**Score:** 84.6%
+
+------------------------------------------------------------------------
+
+## `09 // LANGUAGES`
+
+-   **Tamil:** Native
+-   **English:** Professional communication
+-   **Hindi:** Completed seven examinations; certification details
+    available if needed
+
+------------------------------------------------------------------------
+
+## `10 // GITHUB STATS`
+
+::: {align="center"}
+[![Vidhursh's GitHub
+stats](https://github-readme-stats.vercel.app/api?username=Vidhursh-16&show_icons=true&theme=tokyonight&hide_border=true)](https://github.com/Vidhursh-Rec)
+
+[![Top
+Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Vidhursh-16&layout=compact&theme=tokyonight&hide_border=true)](https://github.com/Vidhursh-Rec)
+
+[![GitHub
+Streak](https://streak-stats.demolab.com?user=Vidhursh-16&theme=tokyonight&hide_border=true)](https://github.com/Vidhursh-Rec)
+:::
+
+------------------------------------------------------------------------
+
+::: {align="center"}
+### `GAME LOOP: PLAN → CODE → BUILD → LEARN → REPEAT`
+
+**Thanks for stopping by. Explore my repositories and let's build
+something useful.** 🎮
+:::
