@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/hero.svg" width="100%" alt="Vidhursh smiling, with doodles: a speech bubble saying vanakkam, I'm Vidhursh, a pixel Player 01 card (class AI + data, base Chennai), and stickers for Python, LLMs, SQL, RAG and dbt.">
+<img src="assets/hero.svg" width="100%" alt="Full-length photo of Vidhursh smiling beside an elephant stone carving, with doodles: a speech bubble saying vanakkam, I'm Vidhursh, a pixel Player 01 card (class AI + data, base Chennai), and stickers for Python, LLMs, SQL, RAG and dbt.">
 
 <br>
 
